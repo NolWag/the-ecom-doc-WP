@@ -26,10 +26,10 @@
 	<div class="header">
 		<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/529582/Ecom-Doc-Logo.png" class="logo" />
 		<ul class="nav-list">
-			<li class="nav-item">Home</li>
-			<li class="nav-item">Services</li></li>
-			<li class="nav-item">Blog</li>
-			<li class="nav-item">Contact</li>
+			<a href="/Home"><li class="nav-item">Home</li></a>
+			<a href="/services"><li class="nav-item">Services</li></a>
+			<a href="/blog"><li class="nav-item">Blog</li></a>
+			<a href="/contact"><li class="nav-item">Contact</li></a>
 		</ul>
 	</div>
 
