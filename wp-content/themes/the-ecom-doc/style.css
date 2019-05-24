@@ -4646,6 +4646,11 @@ svg {
 p, span, h1, h2, h3, h4, h5, div {
   font-family: 'Montserrat', sans-serif;
 }
+
+a, a:visited, a:focus, a:hover {
+  color: unset;
+  text-decoration: none;
+}
     
 .hero-image {
     background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/529582/Ecom-Doc-Angry-Hero-Image.jpg');
@@ -4987,7 +4992,7 @@ p, span, h1, h2, h3, h4, h5, div {
 
 @media only screen and (max-width: 900px) {
   .service-section {
-    margin: 0 2em;
+    margin: 0 1em;
   }
   
   .service-section i {
@@ -5062,9 +5067,7 @@ p, span, h1, h2, h3, h4, h5, div {
   }
 }
 
-a, a:visited {
-  color: unset;
-}
+
 
 .footer {
   color: #fff;

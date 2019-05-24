@@ -41,9 +41,9 @@ get_header();
     <div class="contact-section">
       <div class="ecom-doc"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/529582/Ecom-Doc.png"></div>
       <div class="contact-icon-section">
-        <div class="contact-icon"><i class="fas fa-phone fa-5x"></i></div>
-        <div class="contact-icon"><i class="fas fa-comments fa-5x"></i></div>
-        <div class="contact-icon"><i class="fas fa-envelope fa-5x"></i></div>
+        <a href="/contact" class="contact-icon"><i class="fas fa-phone fa-5x"></i></a>
+        <a href="/contact" class="contact-icon"><i class="fas fa-comments fa-5x"></i></a>
+        <a href="/contact" class="contact-icon"><i class="fas fa-envelope fa-5x"></i></a>
       </div>
     </div>
     </div>
