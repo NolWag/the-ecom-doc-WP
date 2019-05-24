@@ -15,7 +15,7 @@ get_header();
 </div>
 <div class="contact-container">
     <div class="content-section">
-    <i class="fas fa-phone fa-5x"></i>
+    <i class="fas fa-comments fa-5x"></i>
     <p>Etiam a pretium ligula. Nam lacinia dignissim ipsum ut efficitur. Duis id est justo. Ut tristique a nisl non finibus. Aliquam pretium at sapien in accumsan. Duis vulputate tellus auctor luctus suscipit.</p>
     </div>
     <div class="content-section">
@@ -23,7 +23,7 @@ get_header();
     <p>Etiam a pretium ligula. Nam lacinia dignissim ipsum ut efficitur. Duis id est justo. Ut tristique a nisl non finibus. Aliquam pretium at sapien in accumsan. Duis vulputate tellus auctor luctus suscipit.</p>
     </div>
     <div class="content-section">
-    <i class="fas fa-phone fa-5x"></i>
+    <i class="fas fa-envelope fa-5x"></i>
     <p>Etiam a pretium ligula. Nam lacinia dignissim ipsum ut efficitur. Duis id est justo. Ut tristique a nisl non finibus. Aliquam pretium at sapien in accumsan. Duis vulputate tellus auctor luctus suscipit.</p>
     </div>
     </div>
