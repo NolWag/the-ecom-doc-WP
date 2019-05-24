@@ -5021,10 +5021,8 @@ p, span, h1, h2, h3, h4, h5, div {
 @media only screen and (max-width: 900px) {
   .contact-header {
     width: unset;
+    padding: 1em;
   }
-}
-
-.contact-header p {
 }
 
 .contact-container {
@@ -5034,7 +5032,7 @@ p, span, h1, h2, h3, h4, h5, div {
 
 @media only screen and (max-width: 900px) {
   .contact-container {
-    padding: 0;
+    padding: .5em;
     flex-direction: column;
   }
 }
@@ -5042,6 +5040,16 @@ p, span, h1, h2, h3, h4, h5, div {
 .content-section {
   display: flex;
   align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .content-section {
+    flex-direction: column;
+  }
+
+  .content-section p {
+    text-align: center;
+  }
 }
 
 .content-section i {
