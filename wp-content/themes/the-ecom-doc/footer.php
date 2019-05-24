@@ -16,7 +16,14 @@
 	</div><!-- #content -->
 
 	<footer class="footer">
-	
+	<div class="social-icons-footer">
+	<a href=""><i class="fab fa-facebook-square"></i></a>
+	<a href="https://www.instagram.com/theecomdoc/"><i class="fab fa-instagram"></i></a>
+	<a href=""><i class="fab fa-twitter"></i></a>
+	</div>
+	<span>The Ecom Doc</span>
+
+
 	</footer><!-- #colophon -->
 
 </div><!-- #page -->

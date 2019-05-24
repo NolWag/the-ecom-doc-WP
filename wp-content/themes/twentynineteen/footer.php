@@ -16,7 +16,9 @@
 	</div><!-- #content -->
 
 	<footer class="footer">
-	
+	<i class="fab fa-facebook-f"></i>
+
+
 	</footer><!-- #colophon -->
 
 </div><!-- #page -->
