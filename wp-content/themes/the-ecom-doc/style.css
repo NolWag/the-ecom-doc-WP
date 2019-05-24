@@ -4735,6 +4735,11 @@ p, span, h1, h2, h3, h4, h5, div {
 	background-color: #F23D3D;
 }
 
+.btn-red:hover, .btn-gray:hover {
+  color: #000;
+  transition: .6s;
+}
+
 .btn-gray {
 	background-color: gray;
 }
@@ -4985,6 +4990,31 @@ p, span, h1, h2, h3, h4, h5, div {
     margin: 2em 0;
 }
 
-.services-header h1 {
-  
+.seperator {
+  height: 10px;
+  background-color: red;
+  width: 100px;
+}
+
+.contact-header {
+  padding: 3em;
+  width: 50%;
+  text-align: left;
+}
+
+.contact-header p {
+}
+
+.contact-container {
+  display: flex;
+  padding-right: 3em;
+}
+
+.content-section {
+  display: flex;
+  align-items: center;
+}
+
+.content-section i {
+  margin: 1em .5em;
 }

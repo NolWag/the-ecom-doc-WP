@@ -11,8 +11,8 @@ get_header();
         <h1>Stop stressing over your <span>ecommerce</span> website & let us take the lead.</h1>
     </div>
     <div class="hero-btn">
-        <div class="btn btn-gray">Learn More</div>
-        <div class="btn btn-red">Help Now</div>
+        <a href="/services"><div class="btn btn-gray">Learn More</div><a/>
+        <a href="/contact"><div class="btn btn-red">Help Now</div></a>
     </div>
 </div>
 <div class="main-container">
@@ -24,11 +24,11 @@ get_header();
   <div class="main-content">
     <div class="text-section">
       <h2>What we do. Who we help.</h2>
-      <p>The ecom doc is here to provide a professional ecommerce maintenance and support service for Shopify, Woo Commerce & 3D Cart shopping carts. We know that running an ecommerce business can already be a monumental task on it’s own, so making sure your website is always 100% can quickly become overwhelming. Whether your site is running slow, isn’t responsive on mobile devices, needs new functionality or just about anything else ecommerce related, The Ecom Doc can help.</p>
+      <p>The ecom doc is here to provide a professional ecommerce maintenance and support service for Shopify and Woo Commerce shopping carts. We know that running an ecommerce business can already be a monumental task on it’s own, so making sure your website is always 100% can quickly become overwhelming. Whether your site is running slow, isn’t responsive on mobile devices, needs new functionality or just about anything else ecommerce related, The Ecom Doc can help.</p>
     </div>
     <div class="brand-section">
       <img class="brand-logo" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/529582/shopify-logo.png" />
-      <img class="brand-logo" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/529582/edcart-logo.png" />
+      <!---<img class="brand-logo" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/529582/edcart-logo.png" /> -->
       <img class="brand-logo" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/529582/woocommerce-logo.png" />
 
     </div>
