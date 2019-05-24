@@ -24,7 +24,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<div class="header">
-		<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/529582/Ecom-Doc-Logo.png" class="logo" />
+		<a href="/"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/529582/Ecom-Doc-Logo.png" class="logo" /></a>
 		<ul class="nav-list">
 			<a href="/Home"><li class="nav-item">Home</li></a>
 			<a href="/services"><li class="nav-item">Services</li></a>

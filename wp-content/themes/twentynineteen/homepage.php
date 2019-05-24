@@ -11,8 +11,8 @@ get_header();
         <h1>Stop stressing over your <span>ecommerce</span> website & let us take the lead.</h1>
     </div>
     <div class="hero-btn">
-        <div class="btn btn-gray">Learn More</div>
-        <div class="btn btn-red">Help Now</div>
+        <a href="/services"><div class="btn btn-gray">Learn More</div></a>
+        <a href="/contact"><div class="btn btn-red">Help Now</div></a>
     </div>
 </div>
 <div class="main-container">
@@ -44,10 +44,10 @@ get_header();
         <div class="contact-icon"><i class="fas fa-phone fa-5x"></i></div>
         <div class="contact-icon"><i class="fas fa-comments fa-5x"></i></div>
         <div class="contact-icon"><i class="fas fa-envelope fa-5x"></i></div>
-        <div class="contact-icon"><i class="fas fa-video fa-5x"></i></div>
-
       </div>
     </div>
     </div>
   </div>
 </div>
+
+<?php get_footer(); ?>

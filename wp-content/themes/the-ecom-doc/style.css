@@ -4728,6 +4728,7 @@ p, span, h1, h2, h3, h4, h5, div {
 @media only screen and (max-width: 900px) {
   .btn {
     font-size: 1em;
+    margin-top: 0em;
   }
 }
 
@@ -4942,6 +4943,10 @@ p, span, h1, h2, h3, h4, h5, div {
   }
 }
 
+.nav-list a {
+  width: 100%;
+}
+
 .nav-item {
   margin: 0 1em;
   text-transform: uppercase;
@@ -4976,9 +4981,20 @@ p, span, h1, h2, h3, h4, h5, div {
 .service-section {
   display: flex;
   margin: 2em 6em;
-
 }
 
+
+
+@media only screen and (max-width: 900px) {
+  .service-section {
+    margin: 0 2em;
+  }
+  
+  .service-section i {
+    display: none;
+  }
+}
+ 
 .margin-1 {
   margin: 1em;
 }
@@ -5002,12 +5018,25 @@ p, span, h1, h2, h3, h4, h5, div {
   text-align: left;
 }
 
+@media only screen and (max-width: 900px) {
+  .contact-header {
+    width: unset;
+  }
+}
+
 .contact-header p {
 }
 
 .contact-container {
   display: flex;
   padding-right: 3em;
+}
+
+@media only screen and (max-width: 900px) {
+  .contact-container {
+    padding: 0;
+    flex-direction: column;
+  }
 }
 
 .content-section {
@@ -5017,4 +5046,14 @@ p, span, h1, h2, h3, h4, h5, div {
 
 .content-section i {
   margin: 1em .5em;
+}
+
+@media only screen and (max-width: 900px) {
+  .content-section i {
+    margin:0 .5em 0 .5em;
+  }
+}
+
+a, a:visited {
+  color: #000;
 }
