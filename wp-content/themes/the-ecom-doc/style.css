@@ -5022,11 +5022,38 @@ a, a:visited, a:focus, a:hover {
 
 @media only screen and (max-width: 900px) {
   .contact-header {
-    width: unset;
     padding: 1em;
     flex-direction: column;
   }
 }
+
+.contact-content {
+  max-width: 40%;
+}
+
+@media only screen and (max-width: 900px) {
+  .contact-content {
+    max-width: 100%;
+  }
+}
+
+.contact-method {
+  width: 100%;
+  margin-left: 2em;
+}
+
+
+.footer {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 1em 0;
+}
+
+.social-icons-footer {
+  margin-right: .5em;
+}
+
 
 .contact-container {
   display: flex;
@@ -5055,50 +5082,9 @@ a, a:visited, a:focus, a:hover {
     margin-bottom: 0;
   }
 
-  .icon-section p {
-    text-align: center;
-  }
-}
 
 @media only screen and (max-width: 900px) {
   .icon-section i {
     margin:0 .5em 0 .5em;
   }
 }
-
-.contact-content {
-  max-width: 40%;
-  margin: 3em;
-}
-
-@media only screen and (max-width: 900px) {
-  .contact-content {
-    max-width: unset;
-    margin: 0;
-  }
-}
-
-.contact-method {
-  width: 100%;
-  margin: 3em;
-}
-
-@media only screen and (max-width: 900px) {
-  .contact-method {
-    margin: 0;
-  }
-}
-
-
-
-.footer {
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  padding: 1em 0;
-}
-
-.social-icons-footer {
-  margin-right: .5em;
-}
-
