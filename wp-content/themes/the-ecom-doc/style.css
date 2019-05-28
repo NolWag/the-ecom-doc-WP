@@ -4801,9 +4801,6 @@ a, a:visited, a:focus, a:hover {
   }
 }
 
-.contact-icon-section {
-}
-
 .contact-icon {
   margin: 2em 0;
 }
@@ -5008,7 +5005,7 @@ a, a:visited, a:focus, a:hover {
   padding: 3em;
     background-color: #eee;
     text-align: center;
-    margin: 2em 0;
+    margin: 0 0 2em 0;
 }
 
 .seperator {
@@ -5019,7 +5016,7 @@ a, a:visited, a:focus, a:hover {
 
 .contact-header {
   padding: 3em;
-  width: 50%;
+  display: flex;
   text-align: left;
 }
 
@@ -5032,39 +5029,50 @@ a, a:visited, a:focus, a:hover {
 
 .contact-container {
   display: flex;
-  padding-right: 3em;
+  justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 900px) {
   .contact-container {
     padding: .5em;
     flex-direction: column;
+    justify-content: unset;
   }
 }
 
-.content-section {
+.icon-section {
   display: flex;
   align-items: center;
+  padding: 2em;
+  background-color: #eee;
+  margin-bottom: 4em;
 }
 
 @media only screen and (max-width: 900px) {
-  .content-section {
+  .icon-section {
     flex-direction: column;
+    margin-bottom: 0;
   }
 
-  .content-section p {
+  .icon-section p {
     text-align: center;
   }
 }
 
-.content-section i {
-  margin: 1em .5em;
-}
-
 @media only screen and (max-width: 900px) {
-  .content-section i {
+  .icon-section i {
     margin:0 .5em 0 .5em;
   }
+}
+
+.contact-content {
+  max-width: 40%;
+  margin: 3em;
+}
+
+.contact-method {
+  width: 100%;
+  margin: 3em;
 }
 
 
@@ -5079,3 +5087,4 @@ a, a:visited, a:focus, a:hover {
 .social-icons-footer {
   margin-right: .5em;
 }
+
