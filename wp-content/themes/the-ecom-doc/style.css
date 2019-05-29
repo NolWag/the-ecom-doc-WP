@@ -5008,6 +5008,12 @@ a, a:visited, a:focus, a:hover {
     margin: 0 0 2em 0;
 }
 
+@media only screen and (max-width: 900px) {
+  .services-header {
+    display: none;
+  }
+}
+
 .seperator {
   height: 10px;
   background-color: red;
@@ -5081,10 +5087,22 @@ a, a:visited, a:focus, a:hover {
     flex-direction: column;
     margin-bottom: 0;
   }
+}
 
+.icon-section i {
+  margin: 0 .5em 0 0;
+}  
 
 @media only screen and (max-width: 900px) {
   .icon-section i {
     margin:0 .5em 0 .5em;
   }
+}
+
+.contact-form input {
+  width: 100%;
+}
+
+.hide {
+  display: none;
 }

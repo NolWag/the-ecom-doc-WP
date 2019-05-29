@@ -19,13 +19,27 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
 	<?php wp_head(); ?>
-</head>
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141004480-1"></script>
+	<script>
+  	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+
+  	gtag('config', 'UA-141004480-1');
+	</script>
+
+</head>
+<script>
+
+</script>
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<div class="header">
 		<a href="/"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/529582/Ecom-Doc-Logo.png" class="logo" /></a>
-		<ul class="nav-list">
+		<div id="Hamburger">#</div>
+		<ul id="NavList" class="nav-list">
 			<a href="/Home"><li class="nav-item">Home</li></a>
 			<a href="/services"><li class="nav-item">Services</li></a>
 			<a href="/blog"><li class="nav-item">Blog</li></a>
