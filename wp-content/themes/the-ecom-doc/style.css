@@ -879,9 +879,9 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   transition: background 150ms ease-in-out;
-  background: #0073aa;
+  background: #F23D3D;
   border: none;
-  border-radius: 5px;
+  border-radius: 0px;
   box-sizing: border-box;
   color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -889,7 +889,7 @@ input[type="submit"] {
   font-weight: 700;
   line-height: 1.2;
   outline: none;
-  padding: 0.76rem 1rem;
+  padding: 0.45rem 1rem;
   text-decoration: none;
   vertical-align: bottom;
 }
@@ -899,7 +899,8 @@ button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-  background: #111;
+  background: #fff;
+  color: #000;
   cursor: pointer;
 }
 
@@ -943,7 +944,6 @@ textarea {
   border: solid 1px #ccc;
   box-sizing: border-box;
   outline: none;
-  padding: 0.36rem 0.66rem;
   -webkit-appearance: none;
   outline-offset: 0;
   border-radius: 0;
@@ -4975,11 +4975,6 @@ a, a:visited, a:focus, a:hover {
   }
 }
 
-.footer {
-  background-color: #000;
-  height: 100px;
-}
-
 .service-section {
   display: flex;
   margin: 2em 6em;
@@ -5048,16 +5043,28 @@ a, a:visited, a:focus, a:hover {
   margin-left: 2em;
 }
 
+@media only screen and (max-width: 900px) {
+  .contact-method {
+    margin-left: 0em;
+  }
+}
+
 
 .footer {
   color: #fff;
   display: flex;
-  justify-content: center;
   padding: 1em 0;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
 }
 
 .social-icons-footer {
-  margin-right: .5em;
+  margin: 0 .5em 1em 0;
+}
+
+.social-icons-footer i {
+  margin: 0 .25em;
 }
 
 
@@ -5105,4 +5112,12 @@ a, a:visited, a:focus, a:hover {
 
 .hide {
   display: none;
+}
+
+.mailchimp-footer {
+  display: flex;
+}
+
+.mailchimp-button {
+  background-color: red;
 }
