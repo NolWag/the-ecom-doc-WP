@@ -4653,7 +4653,7 @@ a, a:visited, a:focus, a:hover {
 }
     
 .hero-image {
-    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/529582/Ecom-Doc-Angry-Hero-Image.jpg');
+    background-image: url('https://theecomdoc.com/wp-content/uploads/2019/05/Ecom-Doc-Angry-Hero-Image-Black.png');
 	display: flex;
 	justify-content: space-between;
 	background-repeat: no-repeat;
@@ -4671,7 +4671,7 @@ a, a:visited, a:focus, a:hover {
     text-transform: uppercase;
     color: #fff;
     font-family: sans-serif;
-    margin: 5em;
+    margin: 3em 5em 5em 5em;
 	height: 500px;
 }
 
@@ -5067,7 +5067,6 @@ a, a:visited, a:focus, a:hover {
   margin: 0 .25em;
 }
 
-
 .contact-container {
   display: flex;
   justify-content: space-evenly;
@@ -5120,4 +5119,17 @@ a, a:visited, a:focus, a:hover {
 
 .mailchimp-button {
   background-color: red;
+}
+
+
+/* LANDING PAGE CSS */
+
+.landing-container {
+  display: flex;
+  padding: .5em;
+}
+
+.ecom-doc-B {
+  width: 100px;
+  max-width: unset;
 }
