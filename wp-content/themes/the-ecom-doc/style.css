@@ -5011,7 +5011,7 @@ a, a:visited, a:focus, a:hover {
 
 .seperator {
   height: 10px;
-  background-color: red;
+  background-color: #EF4638;
   width: 100px;
 }
 
@@ -5118,7 +5118,7 @@ a, a:visited, a:focus, a:hover {
 }
 
 .mailchimp-button {
-  background-color: red;
+  background-color: #EF4638;
 }
 
 
@@ -5129,7 +5129,41 @@ a, a:visited, a:focus, a:hover {
   padding: .5em;
 }
 
+@media only screen and (min-width: 900px) {
+  .landing-container {
+    padding: 7em 7em 0em 7em;
+  }
+}
+
 .ecom-doc-B {
-  width: 100px;
+  width: 80px;
   max-width: unset;
+  margin-bottom: -13px;
+}
+
+@media only screen and (min-width: 900px) {
+  .ecom-doc-B {
+    width: unset;
+  }
+}
+
+.ecom-doc-platform {
+  background-color: #EF4638;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.landing-content {
+  padding-left: .5em;
+}
+
+@media only screen and (min-width: 900px) {
+  .landing-content {
+    padding-left: 2em;
+  }
+}
+
+.btn-container {
+  display: flex;
+  margin-bottom: 4em;
 }
