@@ -4806,6 +4806,11 @@ a, a:visited, a:focus, a:hover {
   margin: 2em 0;
 }
 
+.contact-icon-section {
+  display: flex;
+  flex-direction: column;
+}
+
 .ecom-doc {
 	align-self: flex-end;
    -moz-transform: scaleX(-1);
@@ -4844,7 +4849,6 @@ a, a:visited, a:focus, a:hover {
 
 .text-half {
 	max-width: 50%;
-  	margin-bottom: 4em;
 }
 
 @media only screen and (max-width: 1200px) {
