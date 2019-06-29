@@ -20,7 +20,9 @@ $wpb_all_query = new WP_Query(array('post_type'=>'guides', 'post_status'=>'publi
     <!-- the loop -->
     <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
         <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-        <p></p>
+        <p><?php the_field('title'); ?></p>
+        <img src="<?php the_field('image'); ?>" />
+        <p><?php the_field('excerpt'); ?></p>
     <?php endwhile; ?>
     <!-- end of the loop -->
  
