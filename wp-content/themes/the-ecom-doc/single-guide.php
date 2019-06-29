@@ -1,21 +1,17 @@
 <?php
 /**
- * The template for displaying all single posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package WordPress
- * @subpackage Twenty_Nineteen
- * @since 1.0.0
- */
+ * Template Name: Guides
+ * Template Post Type: page
+ **/
+
 
 get_header();
 ?>
 
-	<section id="primary" class="content-area">
+<section id="primary" class="content-area">
 		<main id="main" class="site-main">
-			<?php
 
+			<?php
 			/* Start the Loop */
 			while ( have_posts() ) :
 				the_post();
@@ -48,7 +44,7 @@ get_header();
 				if ( comments_open() || get_comments_number() ) {
 					comments_template();
 				}
-
+				
 			endwhile; // End of the loop.
 			?>
 

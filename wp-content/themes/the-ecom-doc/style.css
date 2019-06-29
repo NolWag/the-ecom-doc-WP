@@ -1974,6 +1974,7 @@ body.page .main-navigation {
 
 .site-content {
   overflow: hidden;
+  min-height: calc(100vh - 200px - 148px - 32px);
 }
 
 /* Content */
