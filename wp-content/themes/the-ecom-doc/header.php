@@ -38,6 +38,7 @@
 		<ul id="NavList" class="nav-list">
 			<a href="/Home"><li class="nav-item">Home</li></a>
 			<a href="/services"><li class="nav-item">Services</li></a>
+			<a href="/guides"><li class="nav-item">Guides</li></a>
 			<a href="/blog"><li class="nav-item">Blog</li></a>
 			<a href="/contact"><li class="nav-item">Contact</li></a>
 		</ul>
