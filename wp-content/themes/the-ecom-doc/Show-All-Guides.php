@@ -15,15 +15,16 @@ $wpb_all_query = new WP_Query(array('post_type'=>'guides', 'post_status'=>'publi
  
 <?php if ( $wpb_all_query->have_posts() ) : ?>
  
-<ul>
+<ul class="guides-container">
  
     <!-- the loop -->
     <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
-        <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-        <p><?php the_field('title'); ?></p>
+    <div class="guide-item">
+        <a href="<?php the_permalink(); ?>"><h3 class="guide-title"><?php the_field('title'); ?></h3></a>
         <img src="<?php the_field('image'); ?>" />
         <p><?php the_field('excerpt'); ?></p>
-    <?php endwhile; ?>
+        <a href="<?php the_permalink(); ?>"<div class="btn btn-red">View</div></a>
+        <?php endwhile; ?>
     <!-- end of the loop -->
  
 </ul>

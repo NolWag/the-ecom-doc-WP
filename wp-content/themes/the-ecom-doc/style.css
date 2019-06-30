@@ -5172,3 +5172,23 @@ a, a:visited, a:focus, a:hover {
   display: flex;
   margin-bottom: 4em;
 }
+
+
+.guides-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.guide-item {
+  width: 25%;
+  margin: 1em .5em;
+}
+
+.guide-item li {
+  list-style-type: none;
+}
+
+.guide-title {
+  height: 88px;
+}
