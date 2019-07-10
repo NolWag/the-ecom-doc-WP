@@ -5185,10 +5185,6 @@ a, a:visited, a:focus, a:hover {
   margin: 1em .5em;
 }
 
-.guide-item li {
-  list-style-type: none;
-}
-
 .guide-title {
   height: 88px;
 }
