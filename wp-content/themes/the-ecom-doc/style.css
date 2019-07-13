@@ -1974,7 +1974,7 @@ body.page .main-navigation {
 
 .site-content {
   overflow: hidden;
-  min-height: calc(100vh - 200px - 148px - 32px);
+  min-height: calc(100vh - 200px - 148px);
 }
 
 /* Content */
@@ -5067,7 +5067,7 @@ a, a:visited, a:focus, a:hover {
 .social-icons-footer {
   margin: 0 .5em 1em 0;
 }
-
+site
 .social-icons-footer i {
   margin: 0 .25em;
 }
@@ -5172,7 +5172,6 @@ a, a:visited, a:focus, a:hover {
   display: flex;
   margin-bottom: 4em;
 }
-
 
 .guides-container {
   display: flex;
